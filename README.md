@@ -1,5 +1,5 @@
-# error_propagator
-Propagador de errores con python. Este projecto utiliza sympy para crear automáticamente las fórmulas de propagación de error de una ecuación dada. Genera imágenes de las fórmulas en la carpeta "imagenes" y permite copiar el código LaTex que representan las fórmulas. Además, permite calcular el error numérico utilizando las fórmulas de error.
+# Propagador de errores
+Propagador de errores con interfaz realizado con python (principalmente las bibliotecas Tkinter, sympy y matplotlib). Este projecto requiere la biblioteca Sympy, que se utiliza para crear automáticamente las fórmulas de propagación de error de una ecuación dada. Genera imágenes de las fórmulas en la carpeta "imagenes" y permite copiar el código LaTex que representan las fórmulas. Además, permite calcular el error numérico utilizando las fórmulas de error.
 
 ## Ejemplo
 
