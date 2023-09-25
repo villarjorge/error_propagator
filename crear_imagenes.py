@@ -1,5 +1,5 @@
 """
-Creación de la imagen que embeber en la ventana de calculo
+Creación de las imagenes
 """
 import matplotlib.pyplot as plt
 
