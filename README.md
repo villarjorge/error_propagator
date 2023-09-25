@@ -12,3 +12,9 @@ Lo que nos lleva a:
 ![!image](https://github.com/villarjorge/error_propagator/blob/main/segunda%20ventana.png)
 
 Y las fórmulas que podemos copiar son: $\sqrt{{\Delta}y^{2} + \frac{x^{2 z} z^{2} {\Delta}x^{2}}{x^{2}}}$ y $\left|{{\Delta}y}\right| + \left|{\frac{x^{z} z {\Delta}x}{x}}\right|$
+
+## Tips de uso e instalación
+
+Necesitas tener Python instalado en tu ordenador, así como la librería sympy. Para instalar sympy puedes probar el comando "pip install sympy" en una terminal. Si utilizas Anaconda, probablemente te vendrá sympy por defecto. 
+
+Puedes descargar este repositorio como zip pulsando el botón verde de arriba en el que pone "Code". Si le pulsas a "Download Zip" comienza la descarga. Puedes extraer los archivos a su propia carpeta. Una vez hayas hecho esto, puedes hacer doble click sobre el archivo "Propagador_errores.bat" para iniciar el programa. 
