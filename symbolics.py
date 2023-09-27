@@ -68,8 +68,8 @@ def paso_simbolico(variables_con_error, variables_sin_error, ecuacion):
     # Engloba todos los pasos simbolicos. 
     # Devuelve las strings de latex de las fórmulas de errores, las lambdas de las fórmulas de errores y las strings de variables de las fórmulas de errores 
     ecuacion_y_variables_simbolicas = procesar_input(variables_con_error, variables_sin_error, ecuacion)
-    formulas_de_errores = diferenciar(*ecuacion_y_variables_simbolicas[:3])
+    formulas_de_errores = diferenciar(*ecuacion_y_variables_simbolicas[:3]) # :3 & >:3
 
     variables_flattened = [i for l in ecuacion_y_variables_simbolicas[1:] for i in l]
-
-    return [smp.latex(f) for f in formulas_de_errores], [smp.lambdify(variables_flattened, f) for f in formulas_de_errores], [str(v) for v in variables_flattened] # smp.python(v)
+    
+    return [smp.latex(f) for f in formulas_de_errores], [smp.lambdify(variables_flattened, f) for f in formulas_de_errores], [str(v).replace(r"{\Delta}", "Δ") for v in variables_flattened] # smp.python(v)
