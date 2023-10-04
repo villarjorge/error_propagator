@@ -11,7 +11,7 @@ Lo que nos lleva a:
 
 ![image](https://github.com/villarjorge/error_propagator/blob/main/segunda%20ventana.png)
 
-Y las fórmulas que podemos copiar son: $\sqrt{{\Delta}y^{2} + \frac{x^{2 z} z^{2} {\Delta}x^{2}}{x^{2}}}$ y $\left|{{\Delta}y}\right| + \left|{\frac{x^{z} z {\Delta}x}{x}}\right|$. En este ejemplo hemos utilizado unos valores orientativos. Los errores numericos se pueden seleccionar y copiar utilizando los métodos normales.
+Y las fórmulas que podemos copiar son: $\sqrt{{\Delta}y^{2} + \frac{x^{2 z} z^{2} {\Delta}x^{2}}{x^{2}}}$ y $\left|{{\Delta}y}\right| + \left|{\frac{x^{z} z {\Delta}x}{x}}\right|$. En este ejemplo hemos utilizado unos valores numericos para las variables y sus erroes orientativos. Los errores numericos se pueden seleccionar y copiar utilizando los métodos normales.
 
 ## Tips de uso e instalación
 
